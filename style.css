@@ -20,6 +20,15 @@ body {
     background-color: black;
   }
 
+
+/* logo over title */
+#site-title a {
+    background: url('images/belle-empire-logo.jpg') left top;
+    background-repeat: no-repeat;
+    display:block;
+    text-indent:-9999px;
+    height:65px; width:263px;
+}
   .site-title {
     letter-spacing: 0.06em;
     opacity: 0.8;
