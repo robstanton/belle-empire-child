@@ -1,0 +1,91 @@
+/*
+Theme Name:   Belle Empire (Child of Tracks)
+Theme URI:    http://belleempire.com
+Description:  Belle Emipre theme	 child theme of tracks
+Author:       Rob Stanton (built on work of Ben Silby)
+Author URI:   hwww.robstanton.com
+Template:     tracks
+Version:      0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.htm
+*/
+
+@import url(../tracks/style.css);
+
+body {
+	color: black;
+	}
+
+.site-header {
+    background-color: black;
+  }
+
+  .site-title {
+    letter-spacing: 0.06em;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+.title-info {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 29;
+    float: none;
+}
+
+
+body {
+    background: black;
+}
+
+.site-title img {
+    max-height: 7.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   max-width: 500px;
+   display: block;
+  width: 100%;
+}
+
+.site-description {
+    top:0px !important;
+    text-align: center;
+    opacity:100 !important;
+   libra
+}
+
+
+
+.main{
+
+	background: black;
+}
+
+.excerpt-header::after, .entry-header::after{
+background-image: url("images/flourish.jpg");
+bottom: -2.6em;
+height: 3em;
+left: 0;
+margin: 0 auto;
+position: absolute;
+right: 0;
+width: 12em;
+}
+
+.site-header .site-description {
+  opacity: 0;
+  color: rgb(213, 205, 177);
+  
+}
+
+.design-credit p{
+    display:none;
+}
+
