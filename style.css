@@ -22,13 +22,26 @@ body {
 
 
 /* logo over title */
-#site-title a {
-    background: url('images/belle-empire-logo.jpg') left top;
+#title-info h1 {
+    background: url('images/belle-empire-logo-large.jpg') left top;
     background-repeat: no-repeat;
     display:block;
     text-indent:-9999px;
-    height:65px; width:263px;
+    height:248px; width:550px;
 }
+
+ @media screen and (max-width: 550px) {
+     #title-info h1 {
+    background: url('images/belle-empire-logo-small.jpg') left top;
+    background-repeat: no-repeat;
+    display:block;
+    text-indent:-9999px;
+    height:131px; width:290px;
+         
+         
+     }
+ }
+     
   .site-title {
     letter-spacing: 0.06em;
     opacity: 0.8;
