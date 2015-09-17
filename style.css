@@ -89,13 +89,16 @@ body {
 
 .excerpt-header::after, .entry-header::after{
 background-image: url("images/flourish.jpg");
+background-repeat: no-repeat;
+display: block;
+background-color: white;
 bottom: -2.6em;
 height: 3em;
 left: 0;
 margin: 0 auto;
 position: absolute;
 right: 0;
-width: 12em;
+width: 14em;
 }
 
 .site-header .site-description {
