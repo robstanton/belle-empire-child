@@ -22,7 +22,7 @@ body {
 
 
 /* logo over title */
-#title-info h1 {
+#title-info h1 , #title-info h2{
     background: url('images/belle-empire-logo-large.jpg') left top;
     background-repeat: no-repeat;
     display:block;
@@ -31,7 +31,7 @@ body {
 }
 
  @media screen and (max-width: 550px) {
-     #title-info h1 {
+     #title-info h1 , #title-info h2{
     background: url('images/belle-empire-logo-small.jpg') left top;
     background-repeat: no-repeat;
     display:block;
